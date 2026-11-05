@@ -1,0 +1,210 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* CABEÇALHO */
+
+header {
+  display: flex;
+  width: 100%;
+  height: 95px;
+  font-family: "Atkinson Hyperlegible Next", system-ui, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 120px;
+  padding-right: 35px;
+  align-items: center;
+}
+
+#nomeProjeto {
+  cursor: default;
+  display: flex;
+  margin: 40px 30px 30px 50px;
+  color: #0f172a;
+  font-weight: 300;
+}
+
+nav #abas {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+
+nav .linkNav {
+  text-decoration: none;
+  color: #52607a;
+  font-size: 16.5px;
+  transition: 0.3s ease-in-out;
+}
+
+.linkNav:hover {
+  color: #110799;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.linkNav:active {
+  font-size: 16px;
+}
+
+#btnNav {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  background-color: #1f7f73;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Atkinson Hyperlegible Next", system-ui, sans-serif;
+  transition: 0.3s ease-in-out;
+}
+
+#btnNav:hover {
+  opacity: 85%;
+  border: solid #54bdb0 3px;
+  transform: translateY(-0.75px);
+}
+
+#btnNav:active {
+  font-size: 19.5px;
+  height: 45px;
+}
+
+/* BODY */
+
+body {
+    height: 100%;
+    background-color: #F8FAFC;
+}
+
+
+/* "Para quem" */
+
+#Paraquem {
+  color: #0f172a;
+  font-family: "Atkinson Hyperlegible Next", system-ui, sans-serif;
+  padding: 16px 14px;
+}
+
+#hRec {
+  color: #201111;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 30px 0 8px;
+}
+
+.recursos-descricao {
+  font-size: 16px;
+  color: #1b0e0e;
+  margin: 10px 10px 10px 5px;
+}
+
+.setores {
+  color: #271414;
+    text-align: left;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.nome-setor {
+    font-size: 20px;
+}
+
+.setor {
+    border: solid 1.6px #07010180;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+
+}
+
+.setor:hover {
+    cursor: default;
+    transform: translateY(-2px);
+    background-color: rgba(131, 130, 130, 0.025);
+}
+
+.setor p {
+    font-size: 14.5px;
+}
+
+
+/* SEÇÃO Necessidades */
+
+#Necessidades {
+ 
+  font-family: 'Atkinson Hyperlegible Next', system-ui, sans-serif;
+}
+
+#hcn {
+  font-family: 'Atkinson Hyperlegible Next', system-ui, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0px 0px 8px 20px;
+  padding-top: 20px;
+}
+
+#acss-descricao {
+  font-size: 16px;
+  color: #475569;
+  margin: 10px 10px 10px 25px;
+}
+
+.cards {
+  background-color: #ffffff;
+  margin-left: 180px;
+  margin-top: 30px;
+  width: 1500px;
+  height: 500px;
+  border: 0.5px solid #DDE3EE;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.card {
+  height: 80px;
+  width: 600px;
+  padding: 10px;
+  margin: 55px 10px 0px 75px;
+  border-radius: 5px;
+  border-left: 5px solid #3875ee;
+  background-color: #ebeff3;
+  
+}
+
+.destacado {
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Poppins', system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #ffffff;
+  border-top: 1px solid #DDE3EE;
+  margin: 40px 0 0 0;
+  padding: 10px;
+}
